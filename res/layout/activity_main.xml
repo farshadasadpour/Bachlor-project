@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+ >
+ 
+
+    
+	<EditText 
+	    android:id="@+id/getName"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:inputType="text"
+	    android:text="Name"/>
+	
+		<EditText 
+	    android:id="@+id/getFamily"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:inputType="text"
+	    android:text="Family"/>
+		
+
+				<EditText 
+	    android:id="@+id/getEmail"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:inputType="text"
+	    android:text="Email"/>
+				
+					<EditText 
+	    android:id="@+id/getPassword"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:inputType="textPassword"
+	    android:text="Pass"/>
+					
+						<EditText 
+	    android:id="@+id/getNumber"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:inputType="number"
+	    android:text="Number"/>
+						
+						<Button 
+						    android:id="@+id/submit"
+						    android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						    android:background="@drawable/ic_launcher"
+						    android:text="SUBMIT"/>
+						
+		<ImageView 
+		    android:id="@+id/imageView"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:adjustViewBounds="true"
+		    android:scaleType="fitXY"
+		    android:visibility="visible"
+		    android:src="@drawable/ic_launcher"/>				
+					
+
+</LinearLayout>

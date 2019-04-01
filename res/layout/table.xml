@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <TableLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <TableRow 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            
+            <EditText 
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="EDIT1"
+                android:layout_weight="1"/>
+            
+            <Button 
+                
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BTN1"
+                android:layout_weight="1"/>
+            
+            
+        </TableRow>
+        
+                <TableRow 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            
+            <EditText 
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="EDIT2"
+                android:layout_weight="1"/>
+            
+            <Button 
+                
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BTN2"
+                android:layout_weight="1"/>
+            
+            
+        </TableRow>
+        
+                        <TableRow 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            
+            <EditText 
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="EDIT3"
+                android:layout_weight="1"/>
+            
+            <Button 
+                
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BTN3"
+                android:layout_weight="1"/>
+            
+            
+        </TableRow>
+        
+                                <TableRow 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            
+            <EditText 
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="EDIT4"
+                android:layout_weight="1"/>
+            
+            <Button 
+                
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BTN4"
+                android:layout_weight="1"/>
+            
+            
+        </TableRow>
+        
+    </TableLayout>
+
+</LinearLayout>
